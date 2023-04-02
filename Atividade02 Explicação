@@ -1,0 +1,11 @@
+A ordem dos números exibidos na Fila não será a mesma ordem em que foram originalmente inseridos na lista.
+Isso ocorre porque a inserção na Pilha e na Fila segue uma política de "último a entrar, primeiro a sair" (LIFO para Pilha e FIFO para Fila),
+ou seja, os últimos dados a serem inseridos na Pilha serão os primeiros a serem removidos e inseridos na Fila.
+
+Assim, após a realização dos passos 1 e 2, teremos na Pilha os números [5, 4, 3, 2, 1], onde o 5 será o primeiro a ser removido e inserido na Fila,
+seguido do 4, 3, 2 e 1, nessa ordem.
+
+Após a realização dos passos 3 e 4, teremos na lista os números [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. Ao repetir os passos 2 e 3,
+teremos novamente os números sendo removidos da Pilha na ordem [10, 9, 8, 7, 6] e inseridos na Fila na mesma ordem.
+
+Portanto, ao finalizar o passo 6, a ordem dos números exibidos na Fila será [5, 4, 3, 2, 1, 10, 9, 8, 7, 6].
